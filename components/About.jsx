@@ -101,7 +101,7 @@ const About = () => {
 
           {/* For mobile-view */}
           {isMobile && (
-            <div className="w-80 h-80 animate-blob transition-all bg-[#151030] absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2" />
+            <div className="w-80 h-80 animate-blob transition-all bg-[#151030] absolute top-1/2 left-1/2 transform" />
           )}
 
           <motion.img

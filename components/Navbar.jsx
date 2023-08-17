@@ -1,5 +1,6 @@
 import React, { useEffect, useState, useRef, useMemo } from "react";
-import { Link } from "react-router-dom";
+// Link is commited because the github pages does not support the react-router-dom
+// import { Link } from "react-router-dom";
 import { AnimatePresence, motion } from "framer-motion";
 
 import { styles } from "../src/styles";
@@ -209,8 +210,9 @@ const Navbar = () => {
       }}
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
-        <Link
-          to="/"
+        {/* Here Link is used but i use the ancher tag because github pages does not support the react router dom. to is replaced with the href */}
+        <a
+          href="/"
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");
@@ -225,7 +227,7 @@ const Navbar = () => {
           <p className="hover:text-secondary ease-in-out duration-200 text-white text-[18px] font-bold cursor-pointer flex">
             M&nbsp; <span className="sm:block hidden">Shahid</span>
           </p>
-        </Link>
+        </a>
 
         {/* Rendering the desktop menu */}
         {renderDesktopMenu()}

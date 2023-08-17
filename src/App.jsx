@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { BrowserRouter } from "react-router-dom";
+// Github pages does not support the react-router-dom
+// import { BrowserRouter } from "react-router-dom";
 import {
   About,
   Contact,
@@ -39,11 +40,11 @@ const App = () => {
   }, []);
 
   return (
-    <>
+    <div>
       {isLoading ? (
         <LogoAnimation />
       ) : (
-        <BrowserRouter>
+        <div className="here we use BrowserRouter later">
           <div className="relative z-1 bg-primary">
             <div className="bg-hero-pattern bg-cover bg-no-repeat bg-center">
               <Navbar />
@@ -66,9 +67,9 @@ const App = () => {
               <Footer />
             </div>
           </div>
-        </BrowserRouter>
+        </div>
       )}
-    </>
+    </div>
   );
 };
 

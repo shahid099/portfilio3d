@@ -52,14 +52,14 @@ const Hero = () => {
             <img
               src={herovector}
               alt="Vector Illustration..."
-              className="absolute -translate-x-1/2 -translate-y-1/2 mt-[80%] animate-hero"
+              className="absolute -translate-x-1/2 mt-[80%] animate-hero"
               style={{ width: "auto", height: "auto" }}
               loading="eager"
             />
           </motion.div>
         )}
 
-        <div className="absolute bottom-12 left-1/2 transform -translate-x-1/2">
+        <div className="absolute bottom-12 left-1/2 transform">
           <a href="#about">
             <div className="w-[35px] h-[64px] rounded-3xl border-4 border-secondary flex justify-center items-start p-2">
               <motion.div
