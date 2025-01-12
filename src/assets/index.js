@@ -27,6 +27,7 @@ import nextalgo from "./company/nextalgo.png";
 import weathersnap from "./weathersnap.png";
 import linearvision from "./linearvision.png";
 import hairday from "./hairday.png";
+import prompttoimg from "./prompttoimg.png"
 
 import mitch from "./testimonials/mitch.png";
 import kevin from "./testimonials/kevin.png";
@@ -60,6 +61,7 @@ export {
   weathersnap,
   linearvision,
   hairday,
+  prompttoimg,
   resume,
   mitch,
   kevin,
