@@ -17,6 +17,7 @@ import {
   weathersnap,
   linearvision,
   hairday,
+  prompttoimg,
   threejs,
   mitch,
   kevin,
@@ -236,6 +237,28 @@ const projects = [
     source_code_link: "https://github.com/Sharjeel-Riaz/Hair-Day-Website",
     project_link: "https://sharjeel-riaz.github.io/Hair-Day-Website/",
   },
+  {
+    name: "AI Image Generation from Prompt",
+    description:
+      "Developed a website that allows users to generate images based on custom prompts using OpenAI's API. The platform also includes a community section where users can share their generated images, fostering collaboration and creativity among the community.",
+    tags: [
+      {
+        name: "reat",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "mongodb",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: prompttoimg,
+    source_code_link: "https://github.com/shahid099/aiImageGenerationWeb",
+    project_link: "https://ai-image-generation-5vdkji5do.vercel.app/",
+  }
 ];
 
 export { services, technologies, experiences, testimonials, projects };
