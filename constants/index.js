@@ -243,7 +243,7 @@ const projects = [
       "Developed a website that allows users to generate images based on custom prompts using OpenAI's API. The platform also includes a community section where users can share their generated images, fostering collaboration and creativity among the community.",
     tags: [
       {
-        name: "reat",
+        name: "react",
         color: "blue-text-gradient",
       },
       {
@@ -257,7 +257,7 @@ const projects = [
     ],
     image: prompttoimg,
     source_code_link: "https://github.com/shahid099/aiImageGenerationWeb",
-    project_link: "https://ai-image-generation-5vdkji5do.vercel.app/",
+    project_link: "https://aiimagegenerationweb.onrender.com/",
   }
 ];
 
